@@ -1,6 +1,31 @@
 
 // ====================================  
-// TEST TO CREATE TODO APP WITH REACT   
+// NOTES  
+// ====================================  
+
+ToDo App	
+Notes and progress.
+	
+    1. I created a react structure app by using create-react-app “name of app”.
+  
+    2. I initiated a git repository that now is live on n-westman GitHub. (here)
+	Reminder to git add // git commit // git push to add updates to the repository.
+
+	3. I made a structure to get started with Sass using React by creating inside 
+    the src foldertwo new folders named “sass” & “css”. Added a style.scss inside 
+    sass folder aswell as added the folders “component”, “base”, “style” and 
+    “utilities”. Then inside utilities I create “_functions.scss”, “_helpers.scss”, 
+    “_mixins.scss” and “_variables.scss”. (Based on structure from treehouse lesson).
+
+	4. I initiated the sass watch in terminal with “sass --watch scss:css” which created a 
+	“style.css” & “style.css.map”.  I then linked the new “style.css” to App.js so everything 
+    is 	set up. Also testing it on the main App component to se that a variable goes through 
+    scss, compiles and results in css in the results with the className=“test”.	
+    
+    5. Next step: creating the base for the ToDo App. //copying this from notes to README.
+
+// ====================================  
+// CREATE-REACT-APP BASIC INFO
 // ====================================  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
