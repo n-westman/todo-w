@@ -25,7 +25,7 @@ Notes and progress.
     5. Next step: creating the base for the ToDo App. //copying this from notes to README.
 
 // ====================================  
-// CREATE-REACT-APP BASIC INFO
+// CREATE-REACT-APP BASIC INFO      
 // ====================================  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
