@@ -22,7 +22,11 @@ Notes and progress.
     is 	set up. Also testing it on the main App component to se that a variable goes through 
     scss, compiles and results in css in the results with the className=“test”.	
     
-    5. Next step: creating the base for the ToDo App. //copying this from notes to README.
+    5. Basstrukturen är skapad. Adderas componenterna TodoItems och TodoList som skickar 
+    information till App componenten. Css bas har tagits fram med hjälp av Sass men ännu
+    inte använt Sass "enkelhet" fullt ut än. 
+
+    6. Nästa steg är att strukturera upp Sass i olika mappar samt kunna ta bort TodoItems.
 
 // ====================================  
 // CREATE-REACT-APP BASIC INFO      
