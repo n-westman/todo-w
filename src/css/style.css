@@ -1,6 +1,19 @@
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+  90% {
+    transform: scale(1.02, 1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
 body {
   padding: 100px;
-  background-color: #FFF;
+  background-color: #e6e6e6;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -12,8 +25,8 @@ body {
 .todoListMain .header input {
   padding: 30px;
   font-size: 1em;
-  background-color: #f8f8f8;
-  border: 2px solid #f8f8f8;
+  background-color: #FFF;
+  border: 2px solid #FFF;
   width: 215px;
   color: #000;
   outline: none;
@@ -33,18 +46,26 @@ body {
   background-color: #4b4b4b;
   border: 2px solid #4b4b4b;
   cursor: pointer;
-  box-shadow: 4px 4px;
   outline: none;
 }
 
 .todoListMain .theList li {
   color: #000;
-  background-color: #f8f8f8;
+  background-color: #FFF;
   padding: 15px;
   margin-bottom: 10px;
   list-style: none;
   margin-inline-end: 5px;
-  box-shadow: 7px 7px;
+  box-shadow: 4px 4px;
+  position: relative;
+  opacity: relative;
+  transition: background-color 0.2s ease-out;
+  animation: fadein 0.35s ease forwards;
+}
+
+.todoListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
 }
 
 ul.theList {
